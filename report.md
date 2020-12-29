@@ -1,6 +1,6 @@
 # Отчёт о тестировании `KeyValidator` 
 
-Открыта Issue #1
+Открыта [Issue #1](https://github.com/edgolovin/javaqa_1-1_KeyValidator/issues/1)
 
 ## Краткое описание
 
