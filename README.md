@@ -46,4 +46,7 @@ while read line; do java KeyValidator $line; done < valid_keys.txt
 while read line; do java KeyValidator $line; done < invalid_keys.txt
 
 ```
-Открыта [Issue #1](https://github.com/edgolovin/javaqa_1-1_KeyValidator/issues/1)
+
+В обоих используемых списках выявлены ключи, валидация которых даёт противоположный ожидаемому результат.
+
+Описано в баг-репорте [Issue #1](https://github.com/edgolovin/javaqa_1-1_KeyValidator/issues/1)
