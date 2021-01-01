@@ -1,7 +1,5 @@
 # Отчёт о тестировании `KeyValidator` 
 
-Открыта [Issue #1](https://github.com/edgolovin/javaqa_1-1_KeyValidator/issues/1)
-
 ## Краткое описание
 
 2020-12-29 Евгений Головин провёл функциональное тестирование приложения `KeyValidator` в соответствии с прилагаемой документацией
@@ -29,6 +27,8 @@
 * Java openjdk version 11.0.9.1
 * GNU bash version 4.4.23
 
+# Результаты тестирования
+
 ## Инструкция по установке OpenJDK11
 Проблем не выявлено
 
@@ -46,4 +46,4 @@ while read line; do java KeyValidator $line; done < valid_keys.txt
 while read line; do java KeyValidator $line; done < invalid_keys.txt
 
 ```
-
+Открыта [Issue #1](https://github.com/edgolovin/javaqa_1-1_KeyValidator/issues/1)
